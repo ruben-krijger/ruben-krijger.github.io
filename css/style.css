@@ -28,7 +28,9 @@ img{
     width: 25%;
     height: auto;
 }
-
+ section{
+    margin-bottom: 20px;
+}
 header{
     position: fixed;
     top: 0;
