@@ -17,11 +17,16 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 li{
-    display: inline;
     margin-right: 10px;
+}
+
+img{
+    width: 25%;
+    height: auto;
 }
 
 header{
@@ -56,6 +61,26 @@ nav{
     padding: 20px;
 }
 
+nav a{
+    color: #222;
+}
+
+nav a:hover{
+    color: #000;
+}
+
 .blog{
     margin-left: 140px;
+}
+
+.blog h1{
+    font-size: 36px;
+}
+
+.blog a{
+    color: #222;
+}
+
+.blog a:hover{
+    color: #000;
 }
