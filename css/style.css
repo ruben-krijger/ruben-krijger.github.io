@@ -111,8 +111,9 @@ nav li{
     margin-left: 0;
     background-color: #2e2d36;
     border: 5px solid #2e2d36;
-    border-bottom: 15px solid #2e2d36;
-    border-radius: 5px;
+    border-bottom: 7px solid #2e2d36;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 table{
@@ -125,4 +126,16 @@ table th, table td{
     border: 2px solid #ffffff;
     padding: 10px;
     text-align: left;
+}
+
+#current{
+    background-color: #43424e;
+}
+
+#passed{
+    background-color: #00500d;
+}
+
+#failed{
+    background-color: #990000;
 }
