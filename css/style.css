@@ -114,3 +114,15 @@ nav li{
     border-bottom: 15px solid #2e2d36;
     border-radius: 5px;
 }
+
+table{
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
