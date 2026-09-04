@@ -7,6 +7,11 @@ a:hover{
     color: #cccccc;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     color: #fff;
     background-color: #2e2d36;
@@ -21,10 +26,11 @@ main{
 }
 
 ul{
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
 }
 
 li{
@@ -32,7 +38,7 @@ li{
 }
 
 img{
-    width: 25%;
+    width: 100%;
     height: auto;
 }
  section{
@@ -83,6 +89,10 @@ nav a{
 
 nav a:hover{
     color: #cccccc;
+}
+
+nav ul{
+    flex-direction: column;
 }
 
 nav li{
@@ -138,4 +148,8 @@ table th, table td{
 
 #failed{
     background-color: #990000;
+}
+
+main ul li{
+    width: 100%;
 }
