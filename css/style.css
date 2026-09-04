@@ -1,18 +1,18 @@
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
 
-a:hover{
+a:hover {
     color: #cccccc;
 }
 
-p{
+p {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     color: #fff;
     background-color: #2e2d36;
     font-family: Arial, sans-serif;
@@ -20,12 +20,12 @@ body{
     padding: 0;
 }
 
-main{
+main {
     padding: 20px;
     padding-top: 30px;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -33,18 +33,24 @@ ul{
     padding: 0;
 }
 
-li{
+li {
     margin-right: 15px;
 }
 
-img{
+main ul li {
+    width: 100%;
+}
+
+img {
     width: 100%;
     height: auto;
 }
- section{
+
+section {
     margin-bottom: 20px;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     height: 25px;
@@ -54,26 +60,18 @@ header{
     font-size: 20px;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.header a{
-    color: #fff;
-}
-
-.header a:hover{
-    color: #ccc;
-}
-
-.header li{
+.header li {
     margin-right: 15px;
     margin-left: 5px;
     border-top: 5px solid #000;
 }
 
-nav{
+nav {
     position: fixed;
     top: 45px;
     left: 0;
@@ -83,40 +81,44 @@ nav{
     padding: 20px;
 }
 
-nav a{
+nav a {
     color: #ffffff;
 }
 
-nav a:hover{
+nav a:hover {
     color: #cccccc;
 }
 
-nav ul{
+nav ul {
     flex-direction: column;
 }
 
-nav li{
+nav li {
     margin-bottom: 10px;
 }
 
-.blog{
+.blog {
     margin-left: 140px;
     color: #ffffff;
 }
 
-.blog h1{
+.blog h1 {
     font-size: 36px;
 }
 
-.blog a{
+.blog a {
     color: #ffffff;
 }
 
-.blog a:hover{
+.blog a:hover {
     color: #cccccc;
 }
 
-#selected-page{
+.blog ul {
+    flex-direction: column;
+}
+
+#selected-page {
     margin-right: 10px;
     margin-left: 0;
     background-color: #2e2d36;
@@ -126,30 +128,27 @@ nav li{
     border-top-right-radius: 5px;
 }
 
-table{
+table {
     border: 2px solid #ffffff;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-table th, table td{
+table th,
+table td {
     border: 2px solid #ffffff;
     padding: 10px;
     text-align: left;
 }
 
-#current{
+#current {
     background-color: #43424e;
 }
 
-#passed{
+#passed {
     background-color: #00500d;
 }
 
-#failed{
+#failed {
     background-color: #990000;
-}
-
-main ul li{
-    width: 100%;
 }
