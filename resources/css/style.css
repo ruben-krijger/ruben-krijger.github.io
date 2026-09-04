@@ -71,7 +71,7 @@ header {
     border-top: 5px solid #000;
 }
 
-#selected-page {
+.header #selected-page {
     margin-right: 10px;
     margin-left: 0;
     background-color: #2e2d36;
@@ -105,6 +105,15 @@ nav ul {
 
 nav li {
     margin-bottom: 10px;
+    border: 5px solid #141414;
+}
+
+nav #selected-page {
+    background-color: #2e2d36;
+    border: 5px solid #2e2d36;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 115px solid #2e2d36;
 }
 
 .blog {
