@@ -20,11 +20,6 @@ body {
     padding: 0;
 }
 
-main {
-    padding: 20px;
-    padding-top: 30px;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -35,6 +30,11 @@ ul {
 
 li {
     margin-right: 15px;
+}
+
+main {
+    padding: 20px;
+    padding-top: 30px;
 }
 
 main ul li {
@@ -69,6 +69,16 @@ header {
     margin-right: 15px;
     margin-left: 5px;
     border-top: 5px solid #000;
+}
+
+#selected-page {
+    margin-right: 10px;
+    margin-left: 0;
+    background-color: #2e2d36;
+    border: 5px solid #2e2d36;
+    border-bottom: 7px solid #2e2d36;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 nav {
@@ -116,16 +126,6 @@ nav li {
 
 .blog ul {
     flex-direction: column;
-}
-
-#selected-page {
-    margin-right: 10px;
-    margin-left: 0;
-    background-color: #2e2d36;
-    border: 5px solid #2e2d36;
-    border-bottom: 7px solid #2e2d36;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 table {
