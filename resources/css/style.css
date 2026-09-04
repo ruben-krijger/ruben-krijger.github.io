@@ -60,18 +60,18 @@ header {
     font-size: 20px;
 }
 
-.header {
+header ul {
     display: flex;
     flex-direction: row;
 }
 
-.header li {
+header ul li {
     margin-right: 15px;
     margin-left: 5px;
     border-top: 5px solid #000;
 }
 
-.header #selected-page {
+header ul #selected-page {
     margin-right: 10px;
     margin-left: 0;
     background-color: #2e2d36;
